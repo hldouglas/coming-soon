@@ -1,0 +1,70 @@
+h1, h2 {
+  font-family: "museo-slab", serif;
+  font-weight: 500;
+}
+
+p, a {
+  font-family: "omnes-pro", sans-serif;
+}
+
+a {
+  text-decoration: underline;
+  display: block;
+  color: black;
+}
+
+@media only screen and (min-width: 0em) {
+
+  h1, h2, p{
+    text-align: center;
+  }
+
+  .brand-shadow-h1 {
+    text-shadow: -2px 0  #FF0000, 2px 0 #00FFFF;
+  }
+
+  a.brand-shadow-a:hover {
+    text-shadow: -1.25px 0  #FF0000, 1.25px 0 #00FFFF;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  h1, h2, p{
+    text-align: left;
+  }
+
+  .brand-shadow-h1 {
+    text-shadow: -2.25px 0  #FF0000, 2.25px 0 #00FFFF;
+  }
+
+  a.brand-shadow-a:hover {
+    text-shadow: -1.5px 0  #FF0000, 1.5px 0 #00FFFF;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .brand-shadow-h1 {
+    text-shadow: -2.5px 0  #FF0000, 2.5px 0 #00FFFF;
+  }
+
+  a.brand-shadow-a:hover {
+    text-shadow: -1.75px 0  #FF0000, 1.75px 0 #00FFFF;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .brand-shadow-h1 {
+    text-shadow: -2.75px 0  #FF0000, 2.75px 0 #00FFFF;
+  }
+
+  a.brand-shadow-a:hover {
+    text-shadow: -1.75px 0  #FF0000, 1.75px 0 #00FFFF;
+  }
+
+}
