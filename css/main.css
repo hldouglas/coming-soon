@@ -64,7 +64,7 @@ a {
   }
 
   a.brand-shadow-a:hover {
-    text-shadow: -1.75px 0  #FF0000, 1.75px 0 #00FFFF;
+    text-shadow: -2px 0  #FF0000, 2px 0 #00FFFF;
   }
 
 }
